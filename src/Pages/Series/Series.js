@@ -24,7 +24,7 @@ function Series() {
 
   useEffect(() => {
    fetchseries()
-   return ()=>{}
+   
   },[page,genreforURL])
   return (
     <div>
